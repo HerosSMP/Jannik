@@ -59,12 +59,23 @@
             padding: 10px;
         }
 
+        .wave{
+            z-index: -1;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+        }        
+
+        .Text{
+            position: fixed;
+        }
 
 
     </style>
 </head>
 <body>
-
+    <img class="wave" src="img/wave.svg" alt="">
     <a class="home" href="index.html">Home</a>
     <a class="uebermich" href="me.html">Über mich</a>
     <a class="kontakt" href="kontakt.html">Kontakt</a>
@@ -76,9 +87,10 @@
     <h4>Aktuell versuche ich Websiten coden zu Lernen</h4>
     <br>
     Projekte:<br>
-    - HeroSMP der Minecraft Server Deutschlands!<br>
-    - Forum Webseite(Geplant in der Zukunft)<br>
-    - Webseite für den HeroSMP Server
-
+    <div class="Text">
+    <h4>- HeroSMP der Minecraft Server Deutschlands!</h4>
+    <h4>- Forum Webseite(Geplant in der Zukunft)</h4>
+    <h4>- Webseite für den HeroSMP Server</h4>
+    </div>
 </body>
 </html>
